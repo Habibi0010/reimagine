@@ -1,92 +1,104 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Arial', sans-serif;
-  }
-  .hero-section {
-    position: relative;
-    height: 100vh; /* Full-screen height */
-    background: url('ayodhya.webp') no-repeat center center/cover; /* Background styling */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 80px;
-    background-color: #000; /* Prevent overlapping of navbar and content */
-  }
-  
-  /* Navbar Styling */
-  .navbar {
-    position: absolute; /* Fix the navbar at the top */
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: transparent; /* Semi-transparent background */
-    padding: 10px 0;
-    z-index: 10;
-    font-family: "Bodoni Moda"; 
-    /* Ensure navbar stays on top */
-  }
-  
-  /* Center Navigation Horizontally */
-  .navbar ul {
-    display: flex;
-    justify-content: center; /* Centers navbar horizontally */
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    
-  }
-  
-  .navbar ul li {
-    margin: 0 20px; /* Space between links */
-  }
-  
-  .navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    transition: color 0.3s ease;
-    color: #000;
-  }
-  
-  .navbar ul li a:hover {
-    color: #007bff; /* Hover effect */
-  }
-  
-  /* Hero Section H1 Styling */
-  .hero-section h1 {
-    color: white;
-    font-size: 48px;
-    margin: 0;
-  }
-  
-  
-  
-  
-  .hero-content {
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    font-family: "Fraunces";
-    font-weight: 500;
-   
-  }
-  
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  /* Full-screen height */
+  background: url('https://plus.unsplash.com/premium_photo-1688645554172-d3aef5f837ce?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwbW91bnRhaW5zfGVufDB8fDB8fHww') no-repeat center center/cover;
+  /* Background styling */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+  background-color: #000;
+  /* Prevent overlapping of navbar and content */
+}
+
+/* Navbar Styling */
+.navbar {
+  position: absolute;
+  /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  /* Semi-transparent background */
+  padding: 10px 0;
+  z-index: 10;
+  font-family: "Bodoni Moda";
+  /* Ensure navbar stays on top */
+}
+
+/* Center Navigation Horizontally */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  /* Centers navbar horizontally */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar ul li {
+  margin: 0 20px;
+  /* Space between links */
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  color: #000;
+}
+
+.navbar ul li a:hover {
+  color: #007bff;
+  /* Hover effect */
+}
+
+/* Hero Section H1 Styling */
+.hero-section h1 {
+  color: white;
+  font-size: 48px;
+  margin: 0;
+}
+
+
+
+
+.hero-content {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: "Fraunces";
+  font-weight: 500;
+
+}
+
 /* Container that holds the button */
 .container {
 
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Or set a specific height depending on the container */
-  width: 100%; /* Full width of its parent */
+  height: 100vh;
+  /* Or set a specific height depending on the container */
+  width: 100%;
+  /* Full width of its parent */
 }
 
 /* Button Styling */
@@ -94,7 +106,8 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: white; /* Button color */
+  background-color: white;
+  /* Button color */
   color: black;
   font-size: 18px;
   font-weight: bold;
@@ -110,8 +123,10 @@ body, html {
 }
 
 .btn-with-icon:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-  transform: scale(1.05); /* Slight scale effect on hover */
+  background-color: #0056b3;
+  /* Darker blue on hover */
+  transform: scale(1.05);
+  /* Slight scale effect on hover */
 }
 
 /* Circle with Icon */
@@ -119,198 +134,196 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black; /* Circle background color */
-  color:antiquewhite; /* Icon color */
+  background-color: black;
+  /* Circle background color */
+  color: antiquewhite;
+  /* Icon color */
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-right: 12px; /* Space between icon and text */
+  margin-right: 12px;
+  /* Space between icon and text */
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .icon-container i {
-  font-size: 20px; /* Icon size */
+  font-size: 20px;
+  /* Icon size */
 }
 
 .icon-container:hover {
-  background-color: antiquewhite; /* Circle background color on hover */
-  color: black; /* Icon color on hover */
+  background-color: antiquewhite;
+  /* Circle background color on hover */
+  color: black;
+  /* Icon color on hover */
 }
 
 /* Optional: Active State */
 .btn-with-icon:active {
-  transform: scale(0.98); /* Slight shrink on active */
+  transform: scale(0.98);
+  /* Slight shrink on active */
 }
 
 
-  .highlight-word {
-    font-family: "Fraunces", serif; /* Custom font for 'Dreams' */
-    color: antiquewhite;
-    font-style: italic;
-    font-weight: 100; /* Optional: Change color */
-     /* Optional: Make bold */
-  }
+.highlight-word {
+  font-family: "Fraunces", serif;
+  /* Custom font for 'Dreams' */
+  color: antiquewhite;
+  font-style: italic;
+  font-weight: 100;
+  /* Optional: Change color */
+  /* Optional: Make bold */
+}
+
+.highlight-adventure {
+  font-family: "Fraunces", serif;
+  /* Custom font for 'Dreams' */
+  color: antiquewhite;
+  font-style: italic;
+  font-weight: 100;
+  /* Optional: Change color */
+  /* Optional: Add italics */
+}
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  /* Changed from 'left' to 'right' */
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #ff5722;
+  transform: scale(1.1);
+}
+
+.about-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.about-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-family: "Fraunces";
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  font-family: "Yatra One";
+
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.stat-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+#reservation {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.reservation-container {
+  margin-bottom: 40px;
+}
+
+.reservation-card {
+  font-family: "fraunces";
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
   
-  .highlight-adventure {
-    font-family: "Fraunces", serif; /* Custom font for 'Dreams' */
-    color: antiquewhite;
-    font-style: italic;
-    font-weight: 100;/* Optional: Change color */
-     /* Optional: Add italics */
-  }
-  
-  .social-icons {
-    position: absolute;
-    top: 50%;
-    right: 20px;  /* Changed from 'left' to 'right' */
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .social-icons a {
-    color: white;
-    font-size: 1.5rem;
-    text-decoration: none;
-    background-color: transparent;
-    border-radius: 50%;
-    transition: background-color 0.3s, transform 0.3s;
-  }
-  
-  .social-icons a:hover {
-    background-color: #ff5722;
-    transform: scale(1.1);
-  }
-  .about-section {
-    padding: 50px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .about-content {
-    max-width: 800px;
-    margin: 0 auto 40px;
-  }
-  
-  .about-content h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #444;
-    margin-bottom: 20px;
-  }
-  
-  .about-content p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #666;
-  }
-  
-  .stats {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-  }
-  
-  .stat-item {
-    text-align: center;
-  }
-  
-  .stat-item h3 {
-    font-size: 3rem;
-    color: #222;
-    margin-bottom: 10px;
-  }
-  
-  .stat-item p {
-    font-size: 1rem;
-    color: #666;
-  }
-  .reservation-section {
-    padding: 60px 20px;
-    background-color: #f9f9f9;
-    text-align: center;
-  }
-  
-  .reservation-header h2 {
-    font-size: 1.5rem;
-    color: #444;
-    margin-bottom: 15px;
-  }
-  
-  .reservation-header p {
-    font-size: 1.2rem;
-    color: #666;
-    margin-bottom: 40px;
-  }
-  
-  .reservation-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 40px;
-    flex-wrap: wrap;
-  }
-  
-  .reservation-image img {
-    width: 100%;
-    max-width: 600px;
-    border-radius: 15px;
-  }
-  
-  .reservation-details {
-    max-width: 400px;
-    text-align: left;
-  }
-  
-  .reservation-details h3 {
-    font-size: 1.8rem;
-    color: #222;
-    margin-bottom: 15px;
-  }
-  
-  .reservation-details p {
-    font-size: 1rem;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .reservation-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .reservation-tags span {
-    background-color: #efefef;
-    padding: 8px 12px;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    color: #444;
-  }
-  
-  .reservation-details h4 {
-    font-size: 1.6rem;
-    color: #000;
-    margin-bottom: 15px;
-  }
-  
-  .reservation-button {
-    padding: 12px 25px;
-    background-color: #ff5722;
-    color: #fff;
-    font-size: 1rem;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .reservation-button:hover {
-    background-color: #e64a19;
-  }
-    
-  
-  
+}
+
+.reservation-card img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.reservation-details {
+  padding: 20px;
+  flex: 1;
+}
+
+.reservation-details h3 {
+  margin-top: 0;
+}
+
+.reservation-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.reservation-details ul li {
+  margin-bottom: 5px;
+}
+
+.reservation-details button {
+  font-family: "Bodoni moda";
+  font-size: large;
+
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  /* Increase this value as needed */
+}
+
+.reservation-details button:hover {
+  background-color: #0056b3;
+}
